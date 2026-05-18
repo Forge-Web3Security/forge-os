@@ -1,0 +1,79 @@
+{
+  "collaborators": [
+    {
+      "name": "ChatGPT",
+      "kind": "cloud-collaborator",
+      "url": "https://chatgpt.com",
+      "status": "external"
+    },
+    {
+      "name": "Qwen Cloud",
+      "kind": "cloud-collaborator",
+      "url": "https://chat.qwen.ai",
+      "status": "external"
+    },
+    {
+      "name": "Ollama Local",
+      "kind": "local-model-runtime",
+      "url": "http://127.0.0.1:11434",
+      "status": "local"
+    },
+    {
+      "name": "OpenCode",
+      "kind": "local-cli",
+      "command": "opencode",
+      "status": "local"
+    },
+    {
+      "name": "GitHub Copilot",
+      "kind": "vscode-collaborator",
+      "command": "code",
+      "status": "vscode"
+    }
+  ],
+  "tools": [
+    {
+      "name": "GitHub",
+      "kind": "external",
+      "url": "https://github.com/Forge-Web3Security"
+    },
+    {
+      "name": "DeepWiki",
+      "kind": "external",
+      "url": "https://deepwiki.com"
+    },
+    {
+      "name": "VSCode",
+      "kind": "local-command",
+      "command": "code"
+    },
+    {
+      "name": "Open WebUI",
+      "kind": "external-or-local",
+      "repo": "https://github.com/open-webui/open-webui.git",
+      "localUrl": "http://127.0.0.1:3000"
+    }
+  ],
+  "research": [
+    {
+      "name": "Etherscan",
+      "kind": "external",
+      "url": "https://etherscan.io"
+    },
+    {
+      "name": "Sepolia Faucet",
+      "kind": "external",
+      "url": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia"
+    },
+    {
+      "name": "Chainlink Docs",
+      "kind": "external",
+      "url": "https://docs.chain.link"
+    },
+    {
+      "name": "Bounty Rules",
+      "kind": "local-note",
+      "path": "docs/bounty-rules.md"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "forge-os-alpha",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "test": "npm run test --workspace backend && npm run test --workspace frontend",
+    "smoke": "bash scripts/smoke.sh",
+    "test:all": "npm run test && npm run smoke"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

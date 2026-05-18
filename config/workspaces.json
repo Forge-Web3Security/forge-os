@@ -1,0 +1,22 @@
+{
+  "workspaces": [
+    {
+      "name": "Audit Copilot",
+      "path": "~/Projects/audit-copilot",
+      "kind": "security-research",
+      "protected": true
+    },
+    {
+      "name": "Audit Copilot Expanded",
+      "path": "~/Projects/audit-copilot-expanded",
+      "kind": "external-llm-sandbox",
+      "protected": false
+    },
+    {
+      "name": "ForgeOS",
+      "path": "~/Projects/forge-os",
+      "kind": "workstation",
+      "protected": false
+    }
+  ]
+}
